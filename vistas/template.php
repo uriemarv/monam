@@ -126,14 +126,13 @@
         
         <p>
           <a href="#" class="btn btn-primary my-2">Conciencia Ambiental</a>
-          <a href="#" class="btn btn-secondary my-2">Inclusión social</a>
+          <a href="#" class="btn btn-secondary my-2">Reportes</a>
         </p>
       </div>
     </div>
   </section>
 
 
-<!-- <h5>EN CONSTRUCCI&Oacute;N</h5> -->
 <?php 
 //session_start();
 $mvc = new MvcController();
@@ -141,9 +140,26 @@ $mvc -> enlacesPaginasController();
 
 // print("<pre>".print_r($_SESSION,true)."</pre>");
 
+$datosController = array();
+$datosController["tabla"] = "datos";
 
- ?>
- 
+$losdatos = $mvc->getDatosController($datosController);
+?>
+<table class="table">
+    <thead>
+        <th>Ciudad</th>
+        <th>Temperatura</th>
+    </thead>
+    <tbody>
+    <?php
+       foreach($losdatos as $clave->$valor){
+            echo "<td>".$valor["municipio"]."</td><td>".$valor["valor"]."</td>";
+       }
+
+    ?>
+         
+    </tbody>
+ </table>
 
   <div class="album py-5 bg-light">
     <div class="container">
@@ -174,6 +190,7 @@ $mvc -> enlacesPaginasController();
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">Ver más</button>
+                  <a href="http://monamapp.wordpress.com" class="btn btn-sm btn-outline-secondary">Ver</a>
 
                 </div>
                 

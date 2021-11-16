@@ -27,9 +27,9 @@ class MvcController {
 		include $respuesta;
 	}
 	
-	public function getDatosController(){
+	public function getDatosController($datosController){
 	    
-	    $datos = Datos::getDatosModel();
+	    $datos = Datos::getDatosModel($datosController);
 	    
 	    return $datos;
 	}
