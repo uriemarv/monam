@@ -1,18 +1,4 @@
-<?php
 
-
-//$ingreso = new Ingreso();
-//$ingreso -> ingresoController();
-
-			if(isset($_SESSION["usuario"])) {
-
-        //header("location:index.php?action=inicio");
-        //exit;
-			}
-      
-      
-			
-        ?>
     <script type="text/javascript">
       google.charts.load('current', {'packages':['corechart']});
       google.charts.setOnLoadCallback(drawChart);
@@ -29,9 +15,8 @@
         */
         
          var jsonData = $.ajax({
-          url: "vistas/modulos/ajx/getData.php,
+          url: "getData.php,
           dataType: "json",
-          method: "POST",
           async: false
           }).responseText;
           
@@ -75,11 +60,27 @@
           legend: { position: 'bottom' }
         };
 
-        var chart = new google.visualization.LineChart(document.getElementById('pie_chart'));
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
 
         chart.draw(data, options);
       }
 </script>
 
-<h2>DASHBOARD - Monitoreo Ambiental (MONAM)</h2> 
-<div id="curve_chart" style="width: 900px; height: 500px"></div>
+<h2 align="center">Temperatura media anual de referencia Periodo 1976-2005</h2> 
+<div align="center">
+    <img src="clima_referencia.jpg">
+</div><br>
+<h2 align="center">Diferencia de Temperatura media anual 2011-2040 con respecto al Período 1976-2005</h2>
+<div align="center">
+    <img src="dif_temp_media_anual_2011-2040.jpg">
+</div><br>
+<h2 align="center">Diferencia de Temperatura media anual 2041-2070 con respecto al Período 1976-2005</h2>
+<div align="center">
+    <img src="dif_temp_media_anual_2041-2070.jpg">
+</div><br>
+<h2 align="center">Diferencia de Temperatura media anual 2071-2100 con respecto al Período 1976-2005</h2>
+<div align="center">
+    <img src="dif_temp_media_anual_2071-2100.jpg">
+</div>
+<small class="text-muted">Fuente: IDEAM</small>
+<!--<div id="curve_chart" style="width: 900px; height: 500px"></div>-->

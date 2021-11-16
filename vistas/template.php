@@ -87,15 +87,16 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-8 col-md-7 py-4">
-          <h4 class="text-white">About</h4>
-          <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+          <h4 class="text-white">Sobre nosotros</h4>
+          
+          <p class="text-muted">Visualización del comportamiento de la temperatura promedio en Colombia. Acciones que siguen con inclusión social, generando participación y conciencia ambiental en nuestra comunidad. Participa en los programas de inclusión de población vulnerable para generar cambios positivos en nuestro medio ambiente.</p>
         </div>
         <div class="col-sm-4 offset-md-1 py-4">
-          <h4 class="text-white">Contact</h4>
+          <h4 class="text-white">Contacto</h4>
           <ul class="list-unstyled">
-            <li><a href="#" class="text-white">Follow on Twitter</a></li>
+            <li><a href="#" class="text-white">Siguenos en Twitter</a></li>
             <li><a href="#" class="text-white">Like on Facebook</a></li>
-            <li><a href="#" class="text-white">Email me</a></li>
+            <li><a href="#" class="text-white">Escríbenos</a></li>
           </ul>
         </div>
       </div>
@@ -105,7 +106,7 @@
     <div class="container">
       <a href="#" class="navbar-brand d-flex align-items-center">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
-        <strong>Album</strong>
+        <strong>MONAM</strong>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -119,11 +120,13 @@
   <section class="py-5 text-center container">
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">Album example</h1>
-        <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+        <h1 class="fw-light">Monitoreo Ambiental</h1>
+        <img src="logo.jpeg">
+        <p class="lead text-muted">Visualización de la Temperatura promedio en las principales ciudades de Colombia. </p><p class="lead text-muted">Y luego qué hacemos ?</p>
+        
         <p>
-          <a href="#" class="btn btn-primary my-2">Main call to action</a>
-          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+          <a href="#" class="btn btn-primary my-2">Conciencia Ambiental</a>
+          <a href="#" class="btn btn-secondary my-2">Inclusión social</a>
         </p>
       </div>
     </div>
@@ -148,6 +151,88 @@ $mvc -> enlacesPaginasController();
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col">
           <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><img src="logo2.jpeg"><rect width="100%" height="100%" fill="#55595c"/></svg>
+
+            <div class="card-body">
+              <p class="card-text">Estudios de temperatura media de las últimas 4 décadas en Colombia.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Ver más</button>
+                 
+                </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><img src="logo2.jpeg"><rect width="100%" height="100%" fill="#55595c"/></svg>
+
+            <div class="card-body">
+              <p class="card-text">Programas piloto de universidad en el uso de tecnologías limpias, apoyado por organizaciones no gubernamentales.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Ver más</button>
+
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><img src="logo2.jpeg"><rect width="100%" height="100%" fill="#55595c"/></svg>
+
+            <div class="card-body">
+              <p class="card-text">Programas de empresas y Gobierno en el cuidado del Medio Ambiente.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Ver más</button>
+      
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/></svg>
+
+            <div class="card-body">
+              <p class="card-text">Actualización datasets.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Iniciar</button>
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/></svg>
+
+            <div class="card-body">
+              <p class="card-text">Validación de datos presentados y variables de error.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Ver más</button>
+                 
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--
+        <div class="col">
+          <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
 
             <div class="card-body">
@@ -162,6 +247,7 @@ $mvc -> enlacesPaginasController();
             </div>
           </div>
         </div>
+
         <div class="col">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
@@ -194,7 +280,6 @@ $mvc -> enlacesPaginasController();
             </div>
           </div>
         </div>
-
         <div class="col">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
@@ -211,87 +296,7 @@ $mvc -> enlacesPaginasController();
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
+        -->
       </div>
     </div>
   </div>
@@ -301,10 +306,10 @@ $mvc -> enlacesPaginasController();
 <footer class="text-muted py-5">
   <div class="container">
     <p class="float-end mb-1">
-      <a href="#">Back to top</a>
+      <a href="#">Ir al inicio</a>
     </p>
-    <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-    <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="../getting-started/introduction/">getting started guide</a>.</p>
+    <p class="mb-1">Hackatón &copy; MisionTIC 2022</p>
+
   </div>
 </footer>
 
