@@ -20,11 +20,11 @@
       function drawChart() {
         /*
         var data = google.visualization.arrayToDataTable([
-          ['Year', 'Sales', 'Expenses'],
-          ['2004',  1000,      400],
-          ['2005',  1170,      460],
-          ['2006',  660,       1120],
-          ['2007',  1030,      540]
+          ['Year', 'Bello', 'Socorro'],
+          ['2004',  20,      24],
+          ['2005',  22,      25],
+          ['2006',  23,      26],
+          ['2007',  21,      25]
         ]);
         */
         
@@ -70,12 +70,12 @@
         */
 
         var options = {
-          title: 'Company Performance',
+          title: 'Temperatura promedio',
           curveType: 'function',
           legend: { position: 'bottom' }
         };
 
-        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+        var chart = new google.visualization.LineChart(document.getElementById('pie_chart'));
 
         chart.draw(data, options);
       }

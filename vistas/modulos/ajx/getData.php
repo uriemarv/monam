@@ -1,12 +1,12 @@
 <?php
 
-require_once "../../../modelo/conexion.php";
-require_once "../../../controlador/controlador.php";
-require_once "../../../modelo/crud.php";
+//require_once "../../../modelo/conexion.php";
+//require_once "../../../controlador/controlador.php";
+//require_once "../../../modelo/crud.php";
 
 
-$mvc = new MvcController();
-$datosController = array();
+//$mvc = new MvcController();
+//$datosController = array();
 
 /*
 $sql = "SELECT nombre_empresa, COUNT(nombre_empresa) as valor  FROM estudios
@@ -115,5 +115,19 @@ $cadena3 = '{
     ]
 }';
 
+$cadenaprueba = '{
+  "cols": [
+        {"id":"","label":"Topping","pattern":"","type":"string"},
+        {"id":"","label":"Slices","pattern":"","type":"number"}
+      ],
+  "rows": [
+        {"c":[{"v":"Mushrooms","f":null},{"v":3,"f":null}]},
+        {"c":[{"v":"Onions","f":null},{"v":1,"f":null}]},
+        {"c":[{"v":"Olives","f":null},{"v":1,"f":null}]},
+        {"c":[{"v":"Zucchini","f":null},{"v":1,"f":null}]},
+        {"c":[{"v":"Pepperoni","f":null},{"v":2,"f":null}]}
+      ]
+}';
+
 //echo $cadena;
-echo "Funciona BD";
+echo $cadena3;
