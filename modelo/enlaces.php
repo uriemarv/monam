@@ -9,13 +9,13 @@ class Paginas{
 			$module =  "vistas/modulos/".$enlaces.".php";
 		
 		}
-		elseif($enlaces == "ok" || $enlaces == "index"){
-			$module =  "vistas/modulos/presenta.php";
+		elseif($enlaces == "ok" || $enlaces == "index" || $enlaces == "inicio"){
+			$module =  "vistas/modulos/dashboard.php";
 		
 		}
 		
 		else{
-			$module =  "vistas/modulos/inicio.php";
+			$module =  "vistas/modulos/dashboard.php";
 		}
 		
 		return $module;

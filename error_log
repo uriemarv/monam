@@ -1,0 +1,90 @@
+[15-Nov-2021 16:36:02 America/Bogota] PHP Warning:  require_once(controlador/gestorVD.php): failed to open stream: No such file or directory in /home/ausb7q2cdhlf/public_html/monam/index.php on line 10
+[15-Nov-2021 16:36:02 America/Bogota] PHP Fatal error:  require_once(): Failed opening required 'controlador/gestorVD.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/ausb7q2cdhlf/public_html/monam/index.php on line 10
+[15-Nov-2021 16:36:08 America/Bogota] PHP Warning:  require_once(controlador/gestorVD.php): failed to open stream: No such file or directory in /home/ausb7q2cdhlf/public_html/monam/index.php on line 10
+[15-Nov-2021 16:36:08 America/Bogota] PHP Fatal error:  require_once(): Failed opening required 'controlador/gestorVD.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/ausb7q2cdhlf/public_html/monam/index.php on line 10
+[15-Nov-2021 16:36:33 America/Bogota] PHP Warning:  require_once(controlador/gestorVD.php): failed to open stream: No such file or directory in /home/ausb7q2cdhlf/public_html/monam/index.php on line 10
+[15-Nov-2021 16:36:33 America/Bogota] PHP Fatal error:  require_once(): Failed opening required 'controlador/gestorVD.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/ausb7q2cdhlf/public_html/monam/index.php on line 10
+[15-Nov-2021 16:37:11 America/Bogota] PHP Warning:  include(vistas/template.php): failed to open stream: No such file or directory in /home/ausb7q2cdhlf/public_html/monam/controlador/controlador.php on line 8
+[15-Nov-2021 16:37:11 America/Bogota] PHP Warning:  include(): Failed opening 'vistas/template.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/ausb7q2cdhlf/public_html/monam/controlador/controlador.php on line 8
+[15-Nov-2021 16:38:02 America/Bogota] PHP Warning:  include(vistas/modulos/presenta.php): failed to open stream: No such file or directory in /home/ausb7q2cdhlf/public_html/monam/controlador/controlador.php on line 27
+[15-Nov-2021 16:38:02 America/Bogota] PHP Warning:  include(): Failed opening 'vistas/modulos/presenta.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/ausb7q2cdhlf/public_html/monam/controlador/controlador.php on line 27
+[15-Nov-2021 16:38:03 America/Bogota] PHP Warning:  include(vistas/modulos/presenta.php): failed to open stream: No such file or directory in /home/ausb7q2cdhlf/public_html/monam/controlador/controlador.php on line 27
+[15-Nov-2021 16:38:03 America/Bogota] PHP Warning:  include(): Failed opening 'vistas/modulos/presenta.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/ausb7q2cdhlf/public_html/monam/controlador/controlador.php on line 27
+[15-Nov-2021 16:38:03 America/Bogota] PHP Warning:  include(vistas/modulos/presenta.php): failed to open stream: No such file or directory in /home/ausb7q2cdhlf/public_html/monam/controlador/controlador.php on line 27
+[15-Nov-2021 16:38:03 America/Bogota] PHP Warning:  include(): Failed opening 'vistas/modulos/presenta.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/ausb7q2cdhlf/public_html/monam/controlador/controlador.php on line 27
+[15-Nov-2021 16:42:36 America/Bogota] PHP Warning:  include(vistas/modulos/presenta.php): failed to open stream: No such file or directory in /home/ausb7q2cdhlf/public_html/monam/controlador/controlador.php on line 27
+[15-Nov-2021 16:42:36 America/Bogota] PHP Warning:  include(): Failed opening 'vistas/modulos/presenta.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/ausb7q2cdhlf/public_html/monam/controlador/controlador.php on line 27
+[15-Nov-2021 16:42:37 America/Bogota] PHP Warning:  include(vistas/modulos/presenta.php): failed to open stream: No such file or directory in /home/ausb7q2cdhlf/public_html/monam/controlador/controlador.php on line 27
+[15-Nov-2021 16:42:37 America/Bogota] PHP Warning:  include(): Failed opening 'vistas/modulos/presenta.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/ausb7q2cdhlf/public_html/monam/controlador/controlador.php on line 27
+[15-Nov-2021 16:48:31 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Ingreso' not found in /home/ausb7q2cdhlf/public_html/monam/vistas/modulos/dashboard.php:4
+Stack trace:
+#0 /home/ausb7q2cdhlf/public_html/monam/controlador/controlador.php(27): include()
+#1 /home/ausb7q2cdhlf/public_html/monam/vistas/template.php(81): MvcController->enlacesPaginasController()
+#2 /home/ausb7q2cdhlf/public_html/monam/controlador/controlador.php(8): include('/home/ausb7q2cd...')
+#3 /home/ausb7q2cdhlf/public_html/monam/index.php(13): MvcController->pagina()
+#4 {main}
+  thrown in /home/ausb7q2cdhlf/public_html/monam/vistas/modulos/dashboard.php on line 4
+[15-Nov-2021 16:48:33 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Ingreso' not found in /home/ausb7q2cdhlf/public_html/monam/vistas/modulos/dashboard.php:4
+Stack trace:
+#0 /home/ausb7q2cdhlf/public_html/monam/controlador/controlador.php(27): include()
+#1 /home/ausb7q2cdhlf/public_html/monam/vistas/template.php(81): MvcController->enlacesPaginasController()
+#2 /home/ausb7q2cdhlf/public_html/monam/controlador/controlador.php(8): include('/home/ausb7q2cd...')
+#3 /home/ausb7q2cdhlf/public_html/monam/index.php(13): MvcController->pagina()
+#4 {main}
+  thrown in /home/ausb7q2cdhlf/public_html/monam/vistas/modulos/dashboard.php on line 4
+[15-Nov-2021 16:48:34 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Ingreso' not found in /home/ausb7q2cdhlf/public_html/monam/vistas/modulos/dashboard.php:4
+Stack trace:
+#0 /home/ausb7q2cdhlf/public_html/monam/controlador/controlador.php(27): include()
+#1 /home/ausb7q2cdhlf/public_html/monam/vistas/template.php(81): MvcController->enlacesPaginasController()
+#2 /home/ausb7q2cdhlf/public_html/monam/controlador/controlador.php(8): include('/home/ausb7q2cd...')
+#3 /home/ausb7q2cdhlf/public_html/monam/index.php(13): MvcController->pagina()
+#4 {main}
+  thrown in /home/ausb7q2cdhlf/public_html/monam/vistas/modulos/dashboard.php on line 4
+[15-Nov-2021 16:49:11 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Ingreso' not found in /home/ausb7q2cdhlf/public_html/monam/vistas/modulos/dashboard.php:4
+Stack trace:
+#0 /home/ausb7q2cdhlf/public_html/monam/controlador/controlador.php(27): include()
+#1 /home/ausb7q2cdhlf/public_html/monam/vistas/template.php(81): MvcController->enlacesPaginasController()
+#2 /home/ausb7q2cdhlf/public_html/monam/controlador/controlador.php(8): include('/home/ausb7q2cd...')
+#3 /home/ausb7q2cdhlf/public_html/monam/index.php(13): MvcController->pagina()
+#4 {main}
+  thrown in /home/ausb7q2cdhlf/public_html/monam/vistas/modulos/dashboard.php on line 4
+[15-Nov-2021 16:49:13 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Ingreso' not found in /home/ausb7q2cdhlf/public_html/monam/vistas/modulos/dashboard.php:4
+Stack trace:
+#0 /home/ausb7q2cdhlf/public_html/monam/controlador/controlador.php(27): include()
+#1 /home/ausb7q2cdhlf/public_html/monam/vistas/template.php(81): MvcController->enlacesPaginasController()
+#2 /home/ausb7q2cdhlf/public_html/monam/controlador/controlador.php(8): include('/home/ausb7q2cd...')
+#3 /home/ausb7q2cdhlf/public_html/monam/index.php(13): MvcController->pagina()
+#4 {main}
+  thrown in /home/ausb7q2cdhlf/public_html/monam/vistas/modulos/dashboard.php on line 4
+[15-Nov-2021 16:49:14 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Ingreso' not found in /home/ausb7q2cdhlf/public_html/monam/vistas/modulos/dashboard.php:4
+Stack trace:
+#0 /home/ausb7q2cdhlf/public_html/monam/controlador/controlador.php(27): include()
+#1 /home/ausb7q2cdhlf/public_html/monam/vistas/template.php(81): MvcController->enlacesPaginasController()
+#2 /home/ausb7q2cdhlf/public_html/monam/controlador/controlador.php(8): include('/home/ausb7q2cd...')
+#3 /home/ausb7q2cdhlf/public_html/monam/index.php(13): MvcController->pagina()
+#4 {main}
+  thrown in /home/ausb7q2cdhlf/public_html/monam/vistas/modulos/dashboard.php on line 4
+[15-Nov-2021 16:50:21 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Ingreso' not found in /home/ausb7q2cdhlf/public_html/monam/vistas/modulos/dashboard.php:4
+Stack trace:
+#0 /home/ausb7q2cdhlf/public_html/monam/controlador/controlador.php(27): include()
+#1 /home/ausb7q2cdhlf/public_html/monam/vistas/template.php(81): MvcController->enlacesPaginasController()
+#2 /home/ausb7q2cdhlf/public_html/monam/controlador/controlador.php(8): include('/home/ausb7q2cd...')
+#3 /home/ausb7q2cdhlf/public_html/monam/index.php(13): MvcController->pagina()
+#4 {main}
+  thrown in /home/ausb7q2cdhlf/public_html/monam/vistas/modulos/dashboard.php on line 4
+[15-Nov-2021 16:51:05 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Ingreso' not found in /home/ausb7q2cdhlf/public_html/monam/vistas/modulos/dashboard.php:4
+Stack trace:
+#0 /home/ausb7q2cdhlf/public_html/monam/controlador/controlador.php(27): include()
+#1 /home/ausb7q2cdhlf/public_html/monam/vistas/template.php(81): MvcController->enlacesPaginasController()
+#2 /home/ausb7q2cdhlf/public_html/monam/controlador/controlador.php(8): include('/home/ausb7q2cd...')
+#3 /home/ausb7q2cdhlf/public_html/monam/index.php(13): MvcController->pagina()
+#4 {main}
+  thrown in /home/ausb7q2cdhlf/public_html/monam/vistas/modulos/dashboard.php on line 4
+[15-Nov-2021 16:51:29 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Ingreso' not found in /home/ausb7q2cdhlf/public_html/monam/vistas/modulos/dashboard.php:4
+Stack trace:
+#0 /home/ausb7q2cdhlf/public_html/monam/controlador/controlador.php(27): include()
+#1 /home/ausb7q2cdhlf/public_html/monam/vistas/template.php(81): MvcController->enlacesPaginasController()
+#2 /home/ausb7q2cdhlf/public_html/monam/controlador/controlador.php(8): include('/home/ausb7q2cd...')
+#3 /home/ausb7q2cdhlf/public_html/monam/index.php(13): MvcController->pagina()
+#4 {main}
+  thrown in /home/ausb7q2cdhlf/public_html/monam/vistas/modulos/dashboard.php on line 4
